@@ -10,10 +10,6 @@
     <?php
         $string = file_get_contents("dictionnaire.txt", FILE_USE_INCLUDE_PATH);
         $dico = explode("\n", $string);
-
-        /*foreach ($dico as $mot) {
-            echo $mot."  ";
-        }*/
     ?>
     <h3>Combien de mots contient ce dictionnaire ?</h3>
     <?php
@@ -27,7 +23,6 @@
             
             if (strlen($mot)===15) {
                 $j++;
-                //echo $mot."  ";
             };
         }
         echo "<br>".$j."<br>";
@@ -53,7 +48,6 @@
             };
         }
         echo $l;
-        
     ?>
 </body>
 </html>

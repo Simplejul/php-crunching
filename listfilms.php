@@ -158,11 +158,11 @@ echo $datetime->format("Y");
     <?php
         $filmslimited = [];
         $ac = [];
-        foreach ($top as $film) {
+        //foreach ($top as $film) {
             //$filmslimited += array($film["im:price"]["attributes"]["amount"] => $film["im:name"]["label"]);
             //$filmslimited[$film["im:price"]["attributes"]["amount"]]=[$film["im:name"]["label"]];
             
-        }
+        //}
         //asort($filmslimited);
         var_dump ($filmslimited);
         echo "<br>";
